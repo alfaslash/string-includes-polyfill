@@ -1,5 +1,7 @@
 # Polyfill for String.prototype.includes
 
+[![Build Status](https://travis-ci.org/alfaslash/string-includes-polyfill.svg?branch=master)](https://travis-ci.org/alfaslash/string-includes-polyfill)
+
 Polyfill for string method `includes()` [ECMAScript 2015 (6th Edition, ECMA-262)](https://www.ecma-international.org/ecma-262/6.0/#sec-string.prototype.includes).
 
 ### Installation
