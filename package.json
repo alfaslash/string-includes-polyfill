@@ -1,0 +1,27 @@
+{
+  "name": "string-includes-polyfill",
+  "version": "1.0.0",
+  "description": "Polyfill for String.prototype.includes",
+  "main": "string-includes-polyfill",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfaslash/string-includes-polyfill.git"
+  },
+  "keywords": [
+    "string-includes",
+    "string-includes-polyfill",
+    "String.prototype.includes"
+  ],
+  "author": "alfaslash (Artem Roshko)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alfaslash/string-includes-polyfill/issues"
+  },
+  "homepage": "https://github.com/alfaslash/string-includes-polyfill#readme",
+  "devDependencies": {
+    "jest": "22.4.3"
+  }
+}
