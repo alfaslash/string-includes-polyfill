@@ -1,5 +1,6 @@
 # Polyfill for String.prototype.includes
 
+[![Version](http://img.shields.io/npm/v/string-includes-polyfill.svg)](https://www.npmjs.org/package/string-includes-polyfill)
 [![Build Status](https://travis-ci.org/alfaslash/string-includes-polyfill.svg?branch=master)](https://travis-ci.org/alfaslash/string-includes-polyfill)
 
 [![NPM](https://nodei.co/npm/string-includes-polyfill.png)](https://www.npmjs.com/package/string-includes-polyfill)
