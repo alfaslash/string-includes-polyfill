@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/alfaslash/string-includes-polyfill#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^26.1.0"
   }
 }
