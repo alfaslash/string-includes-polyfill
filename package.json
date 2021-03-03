@@ -1,6 +1,6 @@
 {
   "name": "string-includes-polyfill",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "Polyfill for String.prototype.includes",
   "main": "string-includes-polyfill",
   "scripts": {
@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/alfaslash/string-includes-polyfill#readme",
   "devDependencies": {
-    "jest": "^26.1.0"
+    "jest": "26.6.3"
   }
 }
