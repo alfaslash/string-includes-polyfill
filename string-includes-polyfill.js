@@ -1,14 +1,16 @@
 if (!String.prototype.includes) {
     String.prototype.includes = function (search, start) {
         'use strict';
-        if (typeof start !== 'number') {
-            start = 0;
+
+        if (search instanceof RegExp) {
+            throw new TypeError('"includes" does not accept a RegExp');
         }
 
-        if (start + search.length > this.length) {
-            return false;
-        } else {
-            return this.indexOf(search, start) !== -1;
-        }
+        search = String(search);
+
+        // ToInteger(start): coerce to number, floor, clamp negatives to 0
+        start = Math.max(0, Math.floor(+start) || 0);
+
+        return this.indexOf(search, start) !== -1;
     };
 }
